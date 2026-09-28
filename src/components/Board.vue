@@ -139,4 +139,17 @@ onBeforeMount(() => {
     );
   }
 
+  @media screen and (max-width: 640px) {
+    #board-section  {
+      grid-template-rows: repeat(
+        var(--grid-size),
+        min(calc(95vw / var(--grid-size)), min(calc(95vh / var(--grid-size))))
+      );
+      grid-template-columns: repeat(
+        var(--grid-size),
+        min(calc(95vw / var(--grid-size)), min(calc(95vh / var(--grid-size))))
+      );
+    }
+}
+
 </style>

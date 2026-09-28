@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import Board from './components/Board.vue';
+import AuthorLink from './components/AuthorLink.vue';
+import ProjectVersion from './components/ProjectVersion.vue';
 import { useProgressStore } from './stores/progress.ts';
 import { storeToRefs } from 'pinia';
 
@@ -12,18 +14,23 @@ const { get_isBingo } = storeToRefs(progressStore);
 
 <template>
   <main id="app-main">
-    <h1 class="h1" :class="get_isBingo? `bingo` : `no-bingo`" >
+    <h1 class="h1 NO-SELECT" :class="get_isBingo? `bingo` : `no-bingo`" >
       EXPRESS BINGO
     </h1>
     <Board />
   </main>
+  <footer>
+    <AuthorLink />
+    <ProjectVersion />
+  </footer>
 </template>
 
 <style scoped>
 #app-main {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr auto;
+  position: relative;
+  min-height: 100dvh;
+  display: flex;
+  flex-flow: column;
   align-content: center;
   justify-content: center;
 }

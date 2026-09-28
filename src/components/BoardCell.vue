@@ -38,7 +38,7 @@ function handleBoardCellClick() {
             <CheckMark />
         </div>
         <div v-show="isTaskCompleted" class="bingo-bg layer"></div>
-        <p class="bingo-task-text">{{ task.name }}</p>
+        <p class="bingo-task-text NO-SELECT">{{ task.name }}</p>
     </div>
 </template>
 
@@ -70,10 +70,6 @@ function handleBoardCellClick() {
     font-weight: 700;
     word-wrap: break-word;
     text-transform: uppercase;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 
 .bingo-mask {
