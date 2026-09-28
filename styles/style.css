@@ -5,10 +5,31 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: sans-serif;
+    margin: 0;
 }
 
 .h1 {
     margin-block: 1rem;
     text-align: center;
     font-size: 4rem;
+}
+
+.NO-SELECT {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.DECO {
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 640px) {
+    html  {
+        font-size: 11px;
+    }
+
+
 }
