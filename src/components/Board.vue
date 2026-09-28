@@ -7,7 +7,7 @@ import { storeToRefs } from 'pinia'
 import BoardCell from './BoardCell.vue'
 
 const progressStore = useProgressStore();
-const { get_gameBoardSize, get_checkmarksCellsObj, get_bingoCellsArr, get_bingoMatchesObj } = storeToRefs(progressStore);
+const { get_gameBoardSize, get_checkmarksCellsObj, get_bingoMatchesObj } = storeToRefs(progressStore);
 const { update_bingoCellsArr, addTo_checkmarkCellsObj, removeFrom_checkmarkCellsObj, add_BingoMatch, remove_BingoMatch } = progressStore;
 
 const boardSize = shallowRef<number>(1); /* Will be updated by an initial store value */

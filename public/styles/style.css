@@ -10,7 +10,5 @@
 .h1 {
     margin-block: 1rem;
     text-align: center;
-    color: #222;
-    text-shadow: 0.1rem 0.1rem 0.25rem #000;
     font-size: 4rem;
 }

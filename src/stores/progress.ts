@@ -15,13 +15,9 @@ export const useProgressStore = defineStore('progress', () => {
 
   /* */
 
-  const isBingo = ref<boolean>(false);
-
-  const get_isBingo = computed(() => isBingo.value);
-
-  function set_isBingo(newValue: boolean) {
-    isBingo.value = newValue;
-  }
+  const get_isBingo = computed(() => 
+    bingoMatchesObj.value.xMatches.length || bingoMatchesObj.value.yMatches.length
+  );
 
   /* */
 
@@ -66,7 +62,7 @@ export const useProgressStore = defineStore('progress', () => {
 
   return { 
     gameBoardSize, get_gameBoardSize, set_gameBoardSize,
-    isBingo, get_isBingo, set_isBingo,
+    get_isBingo,
     bingoCellsArr, get_bingoCellsArr, update_bingoCellsArr,
     checkmarksCellsObj, get_checkmarksCellsObj, addTo_checkmarkCellsObj, removeFrom_checkmarkCellsObj,
     bingoMatchesObj, get_bingoMatchesObj, add_BingoMatch, remove_BingoMatch
