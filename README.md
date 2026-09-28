@@ -1,48 +1,55 @@
-# bingo
+# Express Bingo
 
-This template should help get you started developing with Vue 3 in Vite.
+<b>[ B ]</b> - oard game application made in Vuejs. <br> 
+<b>[ I ]</b> - ntegrated for mobile and desktop devices. <br> 
+<b>[ N ]</b> - ifty bingo tracker algorithm built-in.  <br> 
+<b>[ G ]</b> - reen, black and white color palette. <br> 
+<b>[ O ]</b> - ver 20 bingo tasks, randomized with each game. <br> 
 
-## Recommended IDE Setup
+ <br><br><br>
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tech stack
 
-## Recommended Browser Setup
+- Vue.js
+- Vite
+- Typescript
+- Vanilla CSS
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+<br><br><br>
 
-## Type Support for `.vue` Imports in TS
+## Changelog
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+[1.0.5] **Update version link redirection**
+- *App version redirecting link now forwards
+correctly to THIS section of documentation.*
+<br> <br>
 
-## Customize configuration
+[1.0.4] **Changing location of the author svg logo**
+- *Another svg logo location change...*
+<br> <br>
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+[1.0.3] **Change location of an author logo file**
+- *Changed the logo file location in order to
+display properly in production environment.*
+<br> <br>
 
-## Project Setup
+[1.0.2] **Add Author and Version section**
+- *Created mini sections at the bottom of the project.
+These are: AuthorSection; VersionSection.
+The sections are there to serve as links to the
+author Github page and project changelog file,
+respectively.*
+<br> <br>
 
-```sh
-npm install
-```
+[1.0.1] **Add bingo title highlighting**
+- *When at least one Bingo combination is present on
+the Game Board, the heading tag color is modified
+to a green-ish color (to emphasize Bingo success).*
+<br> <br>
 
-### Compile and Hot-Reload for Development
+[1.0.0] **Create bingo game mechanism**
+- *This is all about creating the Bingo game logic,
+with some visual additions added to the game
+board to better track the Bingo state and overall
+progress.*
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
