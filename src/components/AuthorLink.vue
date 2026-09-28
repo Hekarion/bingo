@@ -28,7 +28,7 @@
     height: 3.6rem;
     border-radius: 0.5rem;
     background-color: #222;
-    background-image: url('public/logo.svg');
+    background-image: url('./logo.svg');
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 .3rem .1rem hsl(121, 70%, 40%);
