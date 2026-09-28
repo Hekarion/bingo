@@ -1,0 +1,16 @@
+:root {
+    --grid-size: 1; /* VALUE TO BE UPDATED IN BOARD ONMOUNTED HOOK */
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.h1 {
+    margin-block: 1rem;
+    text-align: center;
+    color: #222;
+    text-shadow: 0.1rem 0.1rem 0.25rem #000;
+    font-size: 4rem;
+}

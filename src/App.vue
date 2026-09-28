@@ -1,11 +1,20 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Board from './components/Board.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main id="app-main">
+    <h1 class="h1">EXPRESS BINGO</h1>
+    <Board />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+#app-main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr auto;
+  align-content: center;
+  justify-content: center;
+}
+</style>
