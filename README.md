@@ -19,6 +19,16 @@
 
 ## Changelog
 
+[1.0.7] **Add custom Favicon to the project**
+- *Replaced the default Vuejs Favicon file
+with custom-made Bingo Favicon.*
+<br> <br>
+
+[1.0.6] **Add RWD to landscape oriented mobiles**
+- *Included some minimal styles adjustments to better
+fit for landscape oriented devices, ideally mobiles.*
+<br> <br>
+
 [1.0.5] **Update version link redirection**
 - *App version redirecting link now forwards
 correctly to THIS section of documentation.*
