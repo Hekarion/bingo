@@ -150,6 +150,19 @@ onBeforeMount(() => {
         min(calc(95vw / var(--grid-size)), min(calc(95vh / var(--grid-size))))
       );
     }
-}
+  }
+
+  @media screen and (max-width: 960px) and (orientation: landscape) {
+    #board-section  {
+      grid-template-rows: repeat(
+        var(--grid-size),
+        min(calc(75vw / var(--grid-size)), min(calc(75vh / var(--grid-size))))
+      );
+      grid-template-columns: repeat(
+        var(--grid-size),
+        min(calc(75vw / var(--grid-size)), min(calc(75vh / var(--grid-size))))
+      );
+    }
+  }
 
 </style>

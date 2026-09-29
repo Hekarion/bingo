@@ -5,7 +5,7 @@
 <template>
     <section id="version-container"> 
         <a class="version-link" href="https://github.com/Hekarion/bingo#changelog" target="_blank">
-            <p class="version-text NO-SELECT"> Version <span class="DECO"> [</span> <span class="version-number"> 1.0.5 </span>  <span class="DECO">] </span> </p>
+            <p class="version-text NO-SELECT"> Version <span class="DECO"> [</span> <span class="version-number"> 1.0.6 </span>  <span class="DECO">] </span> </p>
         </a>
     </section>
 </template>
