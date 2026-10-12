@@ -57,7 +57,6 @@ function runBingoCheck(details: { isTaskCompleted: boolean, coords: { x: number,
           }
         } else {
           if(testOccurenceAlreadyInBingo) { 
-              console.warn('Removing a bingo!'); 
               remove_BingoMatch({ coord: (key === "xPositions"? "x" : "y"), positionIndex: Number.parseInt(entry, 10)});
               confirmBingo(key, details.coords, "remove");
             }
@@ -126,16 +125,16 @@ onBeforeMount(() => {
 
   #board-section {
     border-radius: 2.5%;
-    border: 0.5rem solid black;
+    border: 0.3rem solid black;
     display: grid;
     place-self: center;
     grid-template-rows: repeat(
       var(--grid-size),
-      min(calc(80vw / var(--grid-size)), min(calc(80vh / var(--grid-size))))
+      min(calc(75vw / var(--grid-size)), min(calc(75vh / var(--grid-size))))
     );
     grid-template-columns: repeat(
       var(--grid-size),
-      min(calc(80vw / var(--grid-size)), min(calc(80vh / var(--grid-size))))
+      min(calc(75vw / var(--grid-size)), min(calc(75vh / var(--grid-size))))
     );
   }
 

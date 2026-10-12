@@ -19,6 +19,13 @@
 
 ## Changelog
 
+[1.0.7] **Size adjustments to elements**
+- *This update reduces the sizing of a few
+elements. The grid board border size got
+shrinked, the heading font size and bingo
+task font size got reduced.*
+<br> <br>
+
 [1.0.7] **Add custom Favicon to the project**
 - *Replaced the default Vuejs Favicon file
 with custom-made Bingo Favicon.*

@@ -64,7 +64,7 @@ function handleBoardCellClick() {
 }
 
 .bingo-task-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 1rem;
     text-align: center;
     font-weight: 700;
